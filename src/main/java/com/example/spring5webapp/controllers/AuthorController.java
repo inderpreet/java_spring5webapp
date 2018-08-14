@@ -19,6 +19,7 @@ public class AuthorController {
 
         model.addAttribute("authors", authorRepository.findAll());
 
+        model.addAttribute("tester", "This is a test String hardcoded into the controller class");
         return "authors";
     }
 }

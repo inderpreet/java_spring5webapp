@@ -10,6 +10,8 @@ import org.springframework.context.ApplicationContext;
 public class Spring5webappApplication {
 
 	public static void main(String[] args) {
+
+		// Test App context
 		String test;
 		ApplicationContext ctx =  SpringApplication.run(Spring5webappApplication.class, args);
 
@@ -19,6 +21,7 @@ public class Spring5webappApplication {
 		System.out.println("\nTesting Bean Context:");
 		System.out.println(test);
 
+		// Test Dependency Injection in Springboot
 		System.out.println("\n\nTesting Dependency Injection:");
 		DependencyInjectionController diController = (DependencyInjectionController) ctx.getBean("dependencyInjectionController");
 		System.out.println(diController.sayHello());

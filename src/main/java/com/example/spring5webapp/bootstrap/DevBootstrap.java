@@ -10,6 +10,10 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
+
+/*
+    This class is used for local development and is used to add know data to the database
+ */
 @Component
 public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> {
 
