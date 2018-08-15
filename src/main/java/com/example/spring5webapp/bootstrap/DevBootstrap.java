@@ -13,6 +13,8 @@ import org.springframework.stereotype.Component;
 
 /*
     This class is used for local development and is used to add know data to the database
+
+    The code is used to experiment with JPA and Hibernate.
  */
 @Component
 public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> {

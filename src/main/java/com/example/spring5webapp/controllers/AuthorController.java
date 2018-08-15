@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+// Testing code for JPA and Hibernate. Controller for MVC like app.
 @Controller
 public class AuthorController {
 

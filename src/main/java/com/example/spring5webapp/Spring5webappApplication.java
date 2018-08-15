@@ -21,10 +21,12 @@ public class Spring5webappApplication {
 		System.out.println("\nTesting Bean Context:");
 		System.out.println(test);
 
+
 		// Test Dependency Injection in Springboot
 		System.out.println("\n\nTesting Dependency Injection:");
 		DependencyInjectionController diController = (DependencyInjectionController) ctx.getBean("dependencyInjectionController");
 		System.out.println(diController.sayHello());
+
 
 		System.out.println("\n\n***********  Test Ends ************\n");
 	}

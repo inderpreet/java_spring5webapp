@@ -13,6 +13,7 @@ public class MyController {
         return "test_template";
     }
 
+    // invoke on webpage request
     @RequestMapping("/test")
     public String getTest(){
         return "test_template";
