@@ -22,7 +22,7 @@ Here is a breakdown of the code and commits
     - ! Try and use @Qualifier to clarify intent.
     - The controller is invoked in the Spring app.
     - Spring Profiles are selected via the application.profile
-    
+    - PrimaryGreetingService is set to default by @Service @Primary @Profile({"pr", "default"})
 3. 
 
 ## License
